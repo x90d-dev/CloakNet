@@ -1,12 +1,3 @@
-"""
-CloakNet Layer-2 MAC Obfuscation & Encrypted Vault Engine
-- Uses IEEE-registered vendor OUIs (Intel, Realtek, Apple, Dell, Lenovo, Samsung, Cisco)
-  so generated MAC addresses pass 802.1X / DHCP router validation without triggering
-  anomalous locally-administered bit filters.
-- Provides authenticated encrypted backup storage (HMAC-SHA256 + stream cipher)
-  for reliable restoration via `--restore`.
-"""
-
 import base64
 import datetime
 import hashlib
