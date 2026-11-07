@@ -1,8 +1,3 @@
-"""
-CloakNet Bilingual Localization (i18n) & Configuration Manager
-Supports English (en - Default) and Bahasa Indonesia (id) via CLI argument or config.json.
-"""
-
 import json
 from pathlib import Path
 from typing import Any, Dict
