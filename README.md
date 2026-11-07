@@ -10,7 +10,7 @@
 
 > **Defensive endpoint privacy utility that automates IEEE OUI-compliant MAC address rotation, transient DHCP hostname masking, local resolver/ARP cache hygiene, and deterministic auto-restoration across untrusted wireless and LAN environments.**
 
-<p align="center"><video src="assets/video.gif" width="100%" autoplay loop muted playsinline controls></video></p>
+<img src="assets/video.gif" alt="SentinelTrap Live Telemetry Demo" width="100%">
 
 ---
 
