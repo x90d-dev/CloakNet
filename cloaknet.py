@@ -1,15 +1,3 @@
-#!/usr/bin/env python3
-"""
-CloakNet: Automated Layer-2 Identity Obfuscation & Local Traffic Randomizer
-Main CLI Entry Point (`cloaknet.py`)
-Repository: https://github.com/x90d/CloakNet
-Author: x90d
-
-Features a complete Graceful Exit & Auto-Restore lifecycle (`signal` handlers for
-SIGINT/SIGTERM/SIGBREAK + `atexit` hook + `try...finally` blocks) alongside manual
-`python cloaknet.py --restore` recovery.
-"""
-
 import argparse
 import atexit
 import datetime
