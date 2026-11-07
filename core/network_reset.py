@@ -1,9 +1,3 @@
-"""
-CloakNet Network Cache Hygiene & Graceful Adapter Reset (`core/network_reset.py`)
-Automates DNS resolver cache flushing, local ARP neighbor cache clearing,
-and non-blocking graceful interface cycling across Windows and Linux.
-"""
-
 import platform
 import subprocess
 import time
