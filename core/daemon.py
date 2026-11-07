@@ -1,11 +1,3 @@
-"""
-CloakNet Wireless SSID Transition Monitor Daemon (`core/daemon.py`)
-Monitors wireless SSID/BSSID changes in the background and automatically rotates
-the endpoint's Layer-2 MAC identity, DHCP hostname, and local resolver caches
-whenever the host joins a new or untrusted wireless network.
-Includes signal-safe termination (`SIGINT`/`SIGTERM`) and `try...finally` cleanup.
-"""
-
 import datetime
 import platform
 import subprocess
