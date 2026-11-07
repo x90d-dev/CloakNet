@@ -1,9 +1,3 @@
-"""
-CloakNet Hostname Masker Module (`core/hostname_masker.py`)
-Generates generic enterprise/client DHCP hostnames (e.g., `DESKTOP-9X2A1F` or `WORKSTATION-04`)
-so personal or organizational asset tags are never leaked to untrusted DHCP logs.
-"""
-
 import platform
 import random
 import secrets
