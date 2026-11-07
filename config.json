@@ -1,0 +1,9 @@
+{
+  "language": "en",
+  "default_interface": "auto",
+  "preferred_vendor": "any",
+  "daemon_poll_interval_sec": 10,
+  "hostname_prefix": "DESKTOP",
+  "flush_caches_on_rotate": true,
+  "auto_restore_on_exit": true
+}
